@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #FFFAFA;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GetJSON">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="800.0" style="-fx-background-color: #4682B4;">
+         <children>
+            <Label layoutX="256.0" layoutY="72.0" text="JSON Output" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="outputData" layoutX="509.0" layoutY="233.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="210.0" style="-fx-background-color: #5F9EA0;" text="Output Data" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="20.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="jsonDataField" layoutX="76.0" layoutY="233.0" prefHeight="219.0" prefWidth="357.0">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></TextArea>
+      <Button fx:id="consoleClear" layoutX="509.0" layoutY="315.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="210.0" style="-fx-background-color: #C0C0C0;" text="Console Clear" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitProgram" layoutX="509.0" layoutY="396.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="210.0" style="-fx-background-color: #FAEBD7;" text="Exit">
+         <font>
+            <Font name="Georgia Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
